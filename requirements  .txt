@@ -1,0 +1,16 @@
+# Core notebook dependencies
+crewai[litellm]
+litellm==1.88.6
+crewai-tools
+chromadb
+langchain-tavily
+tavily-python
+pypdf
+python-dotenv
+pandas
+matplotlib
+jupyter
+# Render web server
+fastapi
+uvicorn
+python-multipart
