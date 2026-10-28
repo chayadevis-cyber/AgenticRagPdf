@@ -1,0 +1,12 @@
+# Python 3.11 recommended; current compatible package releases
+crewai[litellm]
+litellm==1.88.6
+crewai-tools
+chromadb
+langchain-tavily
+tavily-python
+pypdf
+python-dotenv
+pandas
+matplotlib
+jupyter
