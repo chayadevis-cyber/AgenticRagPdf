@@ -20,6 +20,7 @@ from pydantic import BaseModel, Field
 from pypdf import PdfReader
 from crewai import Agent, Crew, Process, Task, LLM
 from crewai.tools import tool
+from crewai_tools import PDFSearchTool
 
 APP_DIR = Path(__file__).resolve().parent
 PDF_PATH = APP_DIR / "trasformer_research_paper-dataset.pdf"
